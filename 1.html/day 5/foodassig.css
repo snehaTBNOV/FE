@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    color: brown;
+    text-shadow: 1px 2px 2px black;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+ul{
+    background-color: rgb(235, 225, 229);
+    overflow: hidden;
+   margin: 20px;
+    
+}
+
+li{
+    list-style-type: none;
+    float: left;
+}
+
+
+li a{
+    text-decoration: none;
+    color: blue;
+    font-size: xx-large;
+    display: inline-block;
+    padding: 10px;
+}
+
+a:hover{
+    color:red;
+    background-color: azure;
+    
+}
+
+.items{display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.item img{ width:300px;
+    height:300px;
+    cursor: pointer;
+    transition: 0.3s ease;}
+
+.item{ flex: 0 0 15%; /* Adjust the width as needed */
+    margin: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    }
+
+    .item img:hover{
+    transform: scale(1.03);
+    }
+
+    h4{
+        font-size: larger;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .item button{
+        background-image: linear-gradient(to top left,red,white);
+        color: azure;
+        font-weight: bold;
+        border-radius: 6px;
+        padding: 6px 10px 6px 10px;
+
+
+    }
+
+    .image{
+        background-image: url("https://images.pexels.com/photos/4197491/pexels-photo-4197491.jpeg?auto=compress&cs=tinysrgb&w=400");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .item button:hover{
+        
+        transform: scale(1.03);
+        
+        color: black;
+        background-color: azure;
+        
+    }
+
+
+    /* y setting display: flex; on the container, the images will be laid out in a row-wise manner by default.
+flex-wrap: wrap; allows the images to wrap onto the next line if the container width is not enough to fit all images in a single row.
+The .image-container img selector targets the individual images inside the container.
+flex: 0 0 20%; is used to specify the width of each image. In this example, each image is set to take up 20% of the container's width. You can adjust this value based on your requirements.
+margin: 5px; adds a 5-pixel margin around each image to create spacing between them. */
+
+
+/* .items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px 20px;
+    grid-column: 20px;
+    grid-row-gap: 30px;
+    }
+
+    .item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;} */
+
+    /* display: grid; specifies that the container is a grid container.
+
+grid-template-columns: repeat(3, 1fr); creates three equally sized columns within the grid container. You can modify the number of columns as needed.
+
+padding: 30px 20px; adds padding around the items within the container. The first value represents top and bottom padding, while the second value represents left and right padding.
+
+grid-column-gap: 20px; sets the horizontal gap between grid columns. Adjust the value as per your desired spacing.
+
+grid-row-gap: 30px; sets the vertical gap between grid rows. Adjust the value as per your desired spacing.
+
+.item img targets the images within each item in the grid.
+
+width: 100%; ensures the image width takes up the full width available within the grid cell.
+
+height: 300px; sets a fixed height for the images. Adjust the value as per your image requirements.
+
+object-fit: cover; ensures the image covers the entire image container without distortion.
+
+cursor: pointer; changes the cursor to a pointer when hovering over the image, indicating it is clickable.
+
+transition: 0.2s ease; adds a smooth transition effect with a duration of 0.2 seconds and an ease timing function. This can be used to animate properties when interacting with the image.
+
+Feel free to customize the code further based on your specific requirements, such as adjusting the number of columns, image sizes, or padding.
+
+ */
+
+ 

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        #container{
+            width:70%;
+            display: flex;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        #first{
+            width:40%;
+            background-color: aqua;
+            opacity: 0.7;
+            padding:20px;
+            border: 1px solid black;
+        }
+
+        #second{
+            width:60%;
+            background-color: azure;
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        tr,td,th{
+            border: 0.2px solid black;
+             border-collapse:collapse ;
+             /* for merging */
+             
+        }
+
+        td{
+            text-align: center;
+        }
+
+        #para{
+            text-align: justify;
+        }
+
+        #pa{
+            line-height:0.6;
+        }
+
+        #img{
+            border-radius: 50px;
+        }
+        
+        
+
+        
+    </style>
+</head>
+<body>
+    
+<!-- width used to show how much u want to see out of full screen  -->
+
+<!-- to make something centre u can use 
+
+margin: 0 auto;
+
+display:flex;
+justify-content:center;
+align items:center;
+
+-->
+ <div id="container">
+
+    <div id="first">
+        <div id="img">
+           <img src="https://cdn4.iconfinder.com/data/icons/professional-avatar-5/48/seo_manager_avatar_women_woman_profile_character_professions_2-512.png" width ="150px" height="150px">
+        </div>
+
+        <div>
+            <h2>Contact</h2>
+            <div id="pa">
+            <p><b>Email id:</b>xyz@gmail.com</p>
+            <p><b>ph no:</b>8878786867</p>
+        </div>
+        </div>
+
+        <div>
+
+            <h2>Skills</h2>
+            <ul>
+        
+            <li><b>Programming languages: python,java</b></li>
+            <li><b>front end:HTML,CSS,javascript</b></li>
+            <li><b>backend:node.js,</b></li>
+        
+            </ul>
+        </div>
+
+        <div>
+            <h2>Languages</h2>
+                <ul>
+            <li>English</li>
+            <li>malayalam</li>
+            <li>hindi</li>
+            </ul>
+
+        </div>
+        
+        <div>
+            <h2>Hobbies</h2>
+            <ul>
+            <li>singing</li>
+            <li>painting</li>
+            </ul>
+        </div>
+    </div>
+
+ <div id="second">
+        <div>
+            <h1>Sneha</h1>
+            <p>Web developer</p>
+        </div>
+
+        <div id="para">
+         <h2>Summary</h2>
+            <p>Highly skilled web developer with 5+ years of experience in designing and developing responsive websites. Seeking a challenging position at XYZ Company to utilize my expertise in HTML, CSS, JavaScript, and WordPress to create innovative and user-friendly web solutions. Strong problem-solving abilities and a proven track record of delivering projects on time and within budget.</p>
+        </div>
+        <div>
+            <h2>Experience</h2>
+            <ul>
+            <li><b>Assistant professor</b>
+            <p>(Feb 2023 – Present)</p>
+            <p>Assistant Professor in the Department of Mechatronics Engineering.Taught Power, Analog & Digital electronics, Digital signal processing, Digital system design, Applied</p>
+            </li>
+            <li><b>support analyst</b>
+            <p>(May 2021 – Nov 2022)</p>
+            <p>Provide Level 3 technical support for a range of enterprise software applications, including troubleshooting, problem-solving, and resolution of customer issues</p>
+            </li>
+            <li><b>integration analyst</b>
+            <p>(Feb 2023 – Present)</p>
+            <p>Develop effective integration strategies using Boomi Integration, MDH, Snowflake, Azure 
+              Service Bus, Azure Data Factory, Active Directory, Salesforce, and SQL.</p>
+            </li>
+            </ul>
+        </div>
+        <div>
+            <h2>Education</h2>
+            <table width="45%" cellspacing="0">
+            <tr>
+            <th>universiy</th>
+            <th>passedout year</th>
+            <th>cgpa</th>
+            </tr>
+
+            <tr>
+            <td>Nehru</td>
+            <td>2019</td>
+            <td>9.3</td>
+            </tr>
+            <tr>
+            <td>NSS</td>
+            <td>2017</td>
+            <td>8.1</td>
+            </tr>
+            </table>
+        </div>
+        <div>
+        <h2>project1</h2>
+        <ul><li>based on react</li></ul>
+        <h2>project2</h2>
+        <ul><li>based on node.js</li></ul>
+        </div>
+
+    </div>
+ </div>
+</body>
+</html>

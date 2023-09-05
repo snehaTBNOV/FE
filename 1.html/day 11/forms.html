@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><b style="border: 1px solid blueviolet;background-color: azure;">hi</b>how are you</h1>
+    <h1><strong style="border: 1px solid blueviolet;background-color: azure;">hi</strong>how are you</h1>
+
+    <h4><i>hi</i>hi</h4>
+    <h4><em>hii</em>hi</h4>
+    <h4><mark>hii</mark>hi</h4>
+    <h4><small>HII</small>hi</h4>
+    <p><strike>hi</strike></p>
+    <span>hi <p style="border: 1px black;display: inline;text-decoration: line-through; ">hello</p></span>
+    <h1><u>hi</u>hi</h1>
+    <h4><ins>hii</ins>hi</h4>
+    <h4><sub>hii</sub>hi</h4>
+    <h4><sup>hii</sup>hi</h4>
+
+
+    <!-- registration form 
+    
+    div helps to push in next line-->
+
+    <h1>Registration form</h1>
+
+    <form >
+        <div>
+        <label for="firstname">First Name</label>
+        <input  style="border: none;border-bottom: 2px solid black;" Enter ur first name here" type="text" id="firstname" required>
+    </div>
+    <br>
+    <div>
+        <label for="lastname">Last Name</label>
+        <input placeholder="Enter ur last name here" type="text" id="lastname" required>
+    </div>
+    <br>
+   
+    <div>
+        <label for="email">email</label>
+        <input placeholder="Enter ur email here" type="email" id="email" required>
+    </div>
+    <br>
+    <div>
+        <label for="password">password</label>
+        <input placeholder="Enter ur password here" type="password" id="password" required>
+    </div>
+    <br>
+
+    
+   
+   
+    <div>
+        <label for="dob">dob</label>
+        <input type="date" placeholder="type ur dob" required id="dob">
+    </div>
+    <br>
+    <div>
+        <label for="address">Address</label>
+        <input style="width:200px;border: none;border-bottom: 1px solid black;" type="text">
+    </div>
+    <br>
+
+    <div>
+       <label for="city">city</label>
+       <select id="city"> 
+        <option disabled selected>enter your city</option>
+        <option value="city1">bangalore</option>
+        <option value="city2">delhi</option>
+        <option value="city3">pune</option>
+        <option value="city4">kochi</option>
+        <option value="city5">trivandrum</option>
+        
+       </select>
+
+    </div>
+    <br>
+    <div>
+        <label for="phno">ph number</label>
+        <select id="phno">
+            <option>+91</option>
+            <option>+92</option>
+            <option>+44</option>
+        </select>
+        <input placeholder="Enter ur phno here" type="text" required>
+    </div>
+    <!-- if u put number as type it will wrk s dropdown like ages .so put text as ph no  -->
+    <br>
+        <label>male</label>
+        <input type="checkbox">
+        <label>female</label>
+        <input type="checkbox">
+        <label>others</label>
+        <input type="checkbox">
+    
+<!-- we can use button from input,button as elemnet as well. if u add required attribute it will pop up if someone doesnt fill the info -->
+<button type="submit">submit</button>
+<input type="reset">
+
+    </form>
+</body>
+</html>

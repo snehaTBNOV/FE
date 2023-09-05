@@ -1,0 +1,134 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .child{
+    width:78%;
+    padding: 0px;
+    margin: 0px;
+    height: 1300px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+   
+   
+  }
+  .ch{
+    background-color: brown;
+    
+    padding: 10px;
+    margin: 10px;
+  }
+ul{
+    background-color: rgb(228, 235, 241);
+    overflow: hidden;
+    padding: 20px;
+    margin: 20px;
+}
+
+li{
+  float: left;  
+  list-style-type: none;
+}
+
+li a{
+    padding: 30px;
+  margin: 30px;
+  color: black;
+  text-decoration: none;
+
+  
+}
+
+a:hover{
+    transform: scale(1.01);
+    padding: 20px;
+    background-color: aquamarine;
+
+}
+
+h1{
+    font-weight: bolder;
+    font-size: xx-large;
+    
+    margin-bottom: 20px;
+}
+h4{
+  font-weight: bold;  
+}
+
+.sp{
+  background-color: aliceblue;
+  color: blue;
+  border-radius: 20px;
+  border: 2px solid blue;
+  padding: 4px 6px 4px 6px;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: small;
+}
+
+.sp:hover{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+} 
+
+.span{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0px;
+}
+
+.card{
+display: inline-block;
+width: 200px;
+height:330px;
+margin: 20px;
+background-color: cadetblue;
+border-radius: 15px;
+} 
+
+.cardimg img{
+  width:100%;  
+  /* tht will acquire the space of conatiner /card */
+ width: 200px;
+ height: 120px;
+ border-top-left-radius: 15px;
+ border-top-right-radius: 15px;
+}
+
+.title{
+  font-weight: bold;
+  text-align: center;
+  padding: 3px;
+}
+.ti{
+  font-weight: bold;
+  text-align: center;
+  padding: 3px;
+}
+.tle{
+  font-weight: bold;
+  text-align: center;
+  padding: 3px;
+}
+.para{
+  
+  text-align:justify;
+  padding: 3px;
+}
+
+
+
+
+
+
+

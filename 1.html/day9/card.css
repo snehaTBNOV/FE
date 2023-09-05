@@ -1,0 +1,38 @@
+#container{
+    background-color: aquamarine;
+    padding: 12px;
+}
+
+/* *universal sympbol. so each and every element is targeted */
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.card{
+    display: inline-block;
+    width: 28%;
+    background-color: bisque;
+    
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.cardimg img{
+  width:100%;  
+  /* tht will acquire the space of conatiner /card */
+
+ border-top-left-radius: 15px;
+ border-top-right-radius: 15px;
+}
+
+.title{
+    padding: 10px;
+    text-align: center;
+}
+.para{
+    padding: 10px;
+    text-align: center;
+}

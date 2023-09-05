@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        ul{
+            background-color: rgb(203, 240, 173);
+            overflow: hidden;
+        }
+
+        li{
+            list-style-type: none;
+            /* used to remove the bullrts,bullet design */
+            float: left;
+            /* used to float in a single row .so when u add thsi property bckgrnd clr will hide. so add extra 
+            css prop ,overflow: hidden; so if a property starts overflowing by using more prop on (bucket)*/
+        }
+
+        /* if u want to style individual link use  parent child realtionship */
+        details:hover{
+            background-color: aqua;
+            color: brown;
+            
+        }
+        li a{
+
+             padding: 10px; /* to separate/space */
+            /* margin: 10px; */
+            text-decoration: none; /* to remove dashes on text */
+            color: blue;
+            display: block;
+            font-size: larger;
+            
+        }
+       a:hover{
+        background-color: aquamarine;
+        color: black;
+        padding: 10px;
+       }
+
+       /* h1:hover{
+        background-color: blue;
+       } */
+        /* hover is used to highlight when mouse poiter moves through heading or images.when u hover on the particular text,do wht everu want..increase size,changing colour, */
+    </style>
+</head>
+<body>
+    <h1>welcome to the home page</h1>
+    <header>
+
+        <nav>
+    
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./about.html">about</a></li>
+                <li><a href="./contact.html">contact us</a></li>
+                <li><a href="./details.html">more details</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
